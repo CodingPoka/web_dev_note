@@ -8,13 +8,13 @@ npm init -y
 npm install nodemon express dotenv
 
 
-npm install prisma
+npm install prisma@6
 
 npx prisma
 
 npx prisma init
 
-npm install @prisma/client
+npm install @prisma/client@6
 
 npx prisma migrate dev --name create_user
 
